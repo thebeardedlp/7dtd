@@ -1,0 +1,38 @@
+<Gouki>
+
+	<append xpath="/blocks/block[@name='decoCarTireSmallFlat']">	
+		<drop event="Destroy" name="decoCarTireSmallFlat" count="1" prob="0.20" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceForgedSteel" count="1" prob="0.12" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceOil" count="1" prob="0.14" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="6" prob="0.16" tag="salvageHarvest"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='decoCarTireFlat']">	
+		<drop event="Destroy" name="decoCarTireSmallFlat" count="1" prob="0.20" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceForgedSteel" count="1" prob="0.12" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceOil" count="1" prob="0.14" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="6" prob="0.16" tag="salvageHarvest"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='decoCarTirePile']">	
+		<drop event="Destroy" name="decoCarTireSmallFlat" count="1,2" prob="0.20" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceForgedSteel" count="1" prob="0.12" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceOil" count="1" prob="0.14" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="6" prob="0.16" tag="salvageHarvest"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='decoCarTireStack']">	
+		<drop event="Destroy" name="decoCarTireSmallFlat" count="1,2" prob="0.20" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceForgedSteel" count="1" prob="0.12" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceOil" count="1" prob="0.14" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="6" prob="0.16" tag="salvageHarvest"/>
+	</append>
+	
+	<append xpath="/blocks/block[@name='decoCarWheelFlat']">	
+		<drop event="Destroy" name="vehicleWheels" count="1" prob="0.16" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceForgedSteel" count="1" prob="0.12" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceOil" count="1" prob="0.14" tag="salvageHarvest"/>
+		<drop event="Destroy" name="resourceScrapPolymers" count="6" prob="0.20" tag="salvageHarvest"/>
+	</append>
+	
+</Gouki>

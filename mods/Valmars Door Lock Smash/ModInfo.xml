@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Valmars Door Lock Smash" />
+    <Description value="No More Destroying Doors." />
+    <Author value="Valmar" />
+    <Version value="A18" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>
