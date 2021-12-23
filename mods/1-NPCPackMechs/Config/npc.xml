@@ -1,9 +1,0 @@
-<npc>
-	<append xpath="/npc/factions" >	
-		<faction name="mechs">
-			<relationship name="trader" value="neutral"/>
-			<relationship name="undead" value="hate"/>
-			<relationship name="*" value="hate"/>
-		</faction>		
-	</append>
-</npc>
